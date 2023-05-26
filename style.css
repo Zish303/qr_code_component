@@ -1,0 +1,43 @@
+body {
+    background-color: var(--light-gray);
+    /* font-family: 'Outfit'; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --font: [Outfit](https: //fonts.google.com/specimen/Outfit);
+    }
+
+    .card {
+        width: 300px;
+        padding: 1rem;
+        border-radius: 1rem;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-top: 15vh;
+    }
+
+    .card img {
+        border-radius: 3%;
+    }
+
+    .title {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--dark-blue);
+        text-align: center;
+    }
+
+    .desc {
+        font-size: 15px;
+        font-weight: 400;
+        color: rgb(150, 150, 150);
+        text-align: center;
+    }
